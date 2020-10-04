@@ -6,15 +6,25 @@ const shortUrlSchema = new mongoose.Schema({
       type: Number,
       required: true
     },
-    short: {
+    date: {
       type: String,
       required: true,
-      default: roomId.generate
     },
-    clicks: {
+    Name_of_Booker: {
       type: Number,
       required: true,
-      default: 0
+    },
+    Group_Size: {
+      type: Number,
+      required: true,
+    },
+    Choose_a_reason_of_reservation: {
+      type: String,
+      required: true,
+    },
+    Additional_Requirements: {
+      type: Number,
+      required: true,
     }
   })
   
