@@ -1,0 +1,26 @@
+{
+  "name": "room-reservation-system",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saberslay/Room-Reservation-System.git"
+  },
+  "author": "saberslay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saberslay/Room-Reservation-System/issues"
+  },
+  "homepage": "https://github.com/saberslay/Room-Reservation-System#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
