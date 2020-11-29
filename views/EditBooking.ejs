@@ -8,8 +8,11 @@
         crossorigin="anonymous">
     </head>
     <body>
-        <div class="container">
+        <%- include('partial views/_background-image')%>
+        <div style="padding-left: 390px; padding-right: 390px;">
             <%- include('partial views/_navbar')%>
+        </div>
+        <div class="container" style="background-color: white; padding-bottom: 10px;">
             <%- include('partial views/_edit_fields') %>
         </div>
     </body>

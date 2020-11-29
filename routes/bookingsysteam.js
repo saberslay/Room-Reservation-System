@@ -7,6 +7,7 @@ router.get('/info', (req, res) => {
 
 router.get('/edit/Room-1', (req, res) => {
     res.render('editBooking')
+    //req.body.Room1
 })
 router.get('/edit/Room-2', (req, res) => {
     res.render('editBooking')
